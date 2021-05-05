@@ -5,13 +5,13 @@ import Button from './Button'
 const Header = ({ title }) => {
 
     const onClick = () => {
-        console.log('clicked')
+        console.log('Clicked')
     }
 
     return (
         <header className='header'>
             <h1>{title}</h1>
-            <Button text='hello' onClick={onClick} />
+            <Button text='Add' onClick={onClick} />
         </header>
     )
 }
