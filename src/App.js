@@ -3,7 +3,7 @@ import Tasks from './components/Tasks'
 import { useState } from 'react'
 
 const App = () => {
-  const [tasks,setTasks] = useState([
+  const [tasks, setTasks] = useState([
     {
       id: 1,
       text: 'Dr. Appointment',
